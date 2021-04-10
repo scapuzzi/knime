@@ -4,7 +4,9 @@ have you ever wanted to call a knime workflow with globally defined variables? H
 ```
 python knime_python_example.py
 ```
-This `knime_python_example.py` file won't work out of the box.  You will need to edit and set `-workflowFile='/path/to/file.knwf'` to wherever your workflow of interest is location and you will have to approriately edit your variables in `-workflow.variable` with as many variables as your workflow has defined. if they are defaulted, you don't need this command. remember `-workflow.variable` syntax is `name,value,type`. The `knime_python_example.py` shows `int` and `String` example variables.  
+This `knime_python_example.py` file won't work out of the box. It's just a template.
+
+You will need to edit and set `-workflowFile='/path/to/file.knwf'` to wherever your workflow of interest is location and you will have to approriately edit your variables in `-workflow.variable` with as many variables as your workflow has defined. if they are defaulted, you don't need this command. remember `-workflow.variable` syntax is `name,value,type`. The `knime_python_example.py` shows `int` and `String` example variables.  
 
 Some additional notes:
 
