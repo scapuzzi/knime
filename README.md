@@ -1,4 +1,4 @@
-# call knime with variables from python
+# call knime workflow with variables from python
 have you ever wanted to call a knime workflow with globally defined variables? Here's how.
 
 ```
