@@ -12,7 +12,7 @@ if want to use variable defaults, you don't need this command. remember `-workfl
 
 Some additional notes:
 
-1) you can swap the file `-workflowFile` for directory `-workflowDir='path/to/directory`. Don't forget that to make this work any string need to single quoted ('). 
+1) you can swap the file `-workflowFile` for directory `-workflowDir='path/to/directory`. Don't forget that to make this work any string needs to be single quoted ('). 
 2) all the other arguments after knime and before your paths etc are just settings I click. it doesn’t open the GUI, it doesn’t save, the workflow is rest, and it closes your terminal upon completion of the workflow
 3) a lot of stuff will be printed to your terminal. in my experience when you see ---Registering Weka Editors--- that means you did it correctly!
 4) Additional knime command line info can be found here: https://forum.knime.com/t/decent-documentation-for-command-line-execution-with-variables/31680
